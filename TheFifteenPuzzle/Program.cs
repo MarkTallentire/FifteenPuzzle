@@ -125,10 +125,10 @@ public class Board
         }
 
         for (int i = 1; i < flattened.Length; i++)
+        {
             if (flattened[i - 1] != flattened[i] -1) 
                 return false;
-        
-
+        }
         return true;
     }
     
