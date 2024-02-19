@@ -1,0 +1,14 @@
+/Users/marktallentire/aplayersguide/TheCatacombs/TheFifteenPuzzle/TheFifteenPuzzle/bin/Debug/net8.0/TheFifteenPuzzle
+/Users/marktallentire/aplayersguide/TheCatacombs/TheFifteenPuzzle/TheFifteenPuzzle/bin/Debug/net8.0/TheFifteenPuzzle.deps.json
+/Users/marktallentire/aplayersguide/TheCatacombs/TheFifteenPuzzle/TheFifteenPuzzle/bin/Debug/net8.0/TheFifteenPuzzle.runtimeconfig.json
+/Users/marktallentire/aplayersguide/TheCatacombs/TheFifteenPuzzle/TheFifteenPuzzle/bin/Debug/net8.0/TheFifteenPuzzle.dll
+/Users/marktallentire/aplayersguide/TheCatacombs/TheFifteenPuzzle/TheFifteenPuzzle/bin/Debug/net8.0/TheFifteenPuzzle.pdb
+/Users/marktallentire/aplayersguide/TheCatacombs/TheFifteenPuzzle/TheFifteenPuzzle/obj/Debug/net8.0/TheFifteenPuzzle.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marktallentire/aplayersguide/TheCatacombs/TheFifteenPuzzle/TheFifteenPuzzle/obj/Debug/net8.0/TheFifteenPuzzle.AssemblyInfoInputs.cache
+/Users/marktallentire/aplayersguide/TheCatacombs/TheFifteenPuzzle/TheFifteenPuzzle/obj/Debug/net8.0/TheFifteenPuzzle.AssemblyInfo.cs
+/Users/marktallentire/aplayersguide/TheCatacombs/TheFifteenPuzzle/TheFifteenPuzzle/obj/Debug/net8.0/TheFifteenPuzzle.csproj.CoreCompileInputs.cache
+/Users/marktallentire/aplayersguide/TheCatacombs/TheFifteenPuzzle/TheFifteenPuzzle/obj/Debug/net8.0/TheFifteenPuzzle.dll
+/Users/marktallentire/aplayersguide/TheCatacombs/TheFifteenPuzzle/TheFifteenPuzzle/obj/Debug/net8.0/refint/TheFifteenPuzzle.dll
+/Users/marktallentire/aplayersguide/TheCatacombs/TheFifteenPuzzle/TheFifteenPuzzle/obj/Debug/net8.0/TheFifteenPuzzle.pdb
+/Users/marktallentire/aplayersguide/TheCatacombs/TheFifteenPuzzle/TheFifteenPuzzle/obj/Debug/net8.0/TheFifteenPuzzle.genruntimeconfig.cache
+/Users/marktallentire/aplayersguide/TheCatacombs/TheFifteenPuzzle/TheFifteenPuzzle/obj/Debug/net8.0/ref/TheFifteenPuzzle.dll
