@@ -21,12 +21,6 @@ public class Board
         {
             for (int x = 0; x < _spaces.GetLength(1); x++)
             {
-                if (CanSlide(x, y))
-                    Console.ForegroundColor = ConsoleColor.Blue;
-                else
-                    Console.ForegroundColor = ConsoleColor.Gray;
-                
-                
                 if (x != BOARD_WIDTH - 1)
                 {
                     Console.Write(_spaces[x, y] is null ? ", " : $"{_spaces[x, y]}, ");
@@ -48,28 +42,6 @@ public class Board
 
         _spaces[x,y] = null;
     }
-
-    bool CanSlide(int indexX, int indexY)
-    {
-        //If we are a direct neighbour of the blank we can slide.
-        for (int y = 0; y < _spaces.GetLength(0); y++)
-        {
-            for (int x = 0; x < _spaces.GetLength(1); x++)
-            {
-                if (_spaces[x, y] == null)
-                {
-                    if (indexX == x + 1 && indexY == y) return true;
-                    if (indexX == x - 1 && indexY == y) return true;
-                    if (indexY == y + 1 && indexX == x) return true;
-                    if (indexY == y - 1 && indexX == x) return true;
-                }
-                    
-            }
-        }
-
-        return false;
-    }
-
     private void FillSpaces()
     {
         var random = new Random();
