@@ -34,7 +34,7 @@ public class Board
     private int _blankPosX = 0;
     private int _blankPosY = 0;
 
-    private readonly int? [,] _spaces;
+    private int? [,] _spaces;
 
     public Board()
     {
@@ -109,7 +109,7 @@ public class Board
 
     private bool HasWon()
     {
-        var flattened = new int? [(BoardWidth * BoardHeight)-1];
+        var flattened = new int? [(BoardWidth * BoardHeight) - 1];
         var flatTrack = 0;
         //flatten the 2d array into one array.
         for (var y = 0; y < BoardHeight; y++)
@@ -125,10 +125,9 @@ public class Board
         }
 
         for (int i = 1; i < flattened.Length; i++)
-        {
-            if (flattened[i - 1] != flattened[i] + 1)
+            if (flattened[i - 1] != flattened[i] -1) 
                 return false;
-        }
+        
 
         return true;
     }
