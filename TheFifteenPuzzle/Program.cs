@@ -28,8 +28,8 @@ public class InputController()
 
 public class Board
 {
-    private const int BoardWidth = 4; //x
-    private const int BoardHeight = 4; //y
+    private const int BoardWidth = 3; //x
+    private const int BoardHeight = 3; //y
     
     private int _blankPosX = 0;
     private int _blankPosY = 0;
@@ -109,13 +109,16 @@ public class Board
 
     private bool HasWon()
     {
-        var flattened = new int? [BoardWidth * BoardHeight];
+        var flattened = new int? [(BoardWidth * BoardHeight)-1];
         var flatTrack = 0;
         //flatten the 2d array into one array.
         for (var y = 0; y < BoardHeight; y++)
         {
             for (var x = 0; x < BoardWidth; x++)
             {
+                if (_spaces[x, y] is null)
+                    continue;
+                
                 flattened[flatTrack] = _spaces[x, y];
                 flatTrack++;
             }
@@ -167,7 +170,11 @@ public class Board
         {
             for (int x = 0; x < _spaces.GetLength(1); x++)
             {
-                int? number = _spaces[x,y];
+                if (x == _blankPosX && y == _blankPosY)
+                    continue;
+                
+                int? number = null;
+                
                 while (number is null || IsNumberUsed(number))
                 {
                     number = random.Next(1, BoardHeight * BoardWidth + 1);
